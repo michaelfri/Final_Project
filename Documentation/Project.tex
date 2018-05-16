@@ -1,0 +1,126 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8x]{inputenc}
+\usepackage{graphicx}
+\usepackage{multicol}
+\usepackage[a4paper, portrait, margin=35pt, headheight=10pt]{geometry}
+\usepackage{tikz}
+\usepackage{float}
+\usepackage{array}
+\usepackage{pifont}
+\usepackage{easylist}
+\graphicspath{{/Images/}}
+\setlength\parindent{24pt}
+%%----------------------------
+%% Personal info
+%%----------------------------
+\newcommand{\name}{John Smith}
+\newcommand{\email}{\includegraphics[height=0.65\baselineskip]{mail} johnsmith@gmail.com}
+\newcommand{\address}{\includegraphics[height=0.65\baselineskip]{address} Washington, DC 20500}
+\newcommand{\cellphone}{\includegraphics[height=0.65\baselineskip]{phone} (202)-456-1111}
+\newcommand{\linkedin}{\includegraphics[height=0.65\baselineskip]{linkedin} www.linkedin.com/in/johnsmith}
+%DOOCN5==
+%[.ShellClassInfo]
+%CLSID={645FF040-5081-101B-9F08-00AA002F954E}
+\renewcommand{\labelitemi}{\ding{118}}
+\renewcommand{\labelitemii}{\ding{70}}
+\def\sep{\rule[-80pt]{1pt}{45pt}}
+
+
+\begin{document}
+	\begin{center}
+		\begin{huge}\textbf{\name{}}
+		\end{huge} \\
+		\address \quad \ding{228} Driving License: Full \quad \ding{228} Birth Year: 1988 \\ 
+		\email \quad \linkedin \quad \cellphone
+	\end{center}
+	\hrule
+	\vspace{\baselineskip}
+	% Summary
+	Highly motivated, self-directed, energetic, maker-of-things and proactive.
+	I'm a fast learner with independent learning capability and systemic perspective. Demonstrated high analytic and decision-making skills, especially with incomplete or uncertain information.
+	Finding creative solutions by thinking “out of the box”.
+	
+	
+	% Core Qualifications
+	\subsection*{Core qualifications}
+	\vspace*{-1.5\baselineskip}
+	\begin{tabular}[t]{ p{0.41\textwidth} !{\sep}  p{0.63\textwidth} }
+		\begin{itemize}\itemsep0em 
+			\item \textbf{Key Skills}
+			\begin{itemize}
+				\item Confident, polite and patient.
+				\item Good communication skills.
+				\item Excellent mechanical skills.
+			\end{itemize}
+		\end{itemize}
+		&
+		\begin{itemize}\itemsep0em 
+			\item \textbf{Computer Skills}
+			\begin{multicols}{3}
+				\begin{itemize}
+					\item Linux, Bash
+					\item Orcad PSpice
+					\item C, C++
+					\item Python
+					\item MatLab
+					\item Mathematica
+					\item Photoshop
+					\item \LaTeX
+					\item MS Office
+				\end{itemize}
+			\end{multicols}
+		\end{itemize}
+	\end{tabular}
+	\vspace*{-2\baselineskip}
+	% Experience
+	\subsection*{Experience}
+	\begin{itemize}
+		\item\textbf{Self-employed in repairing PCs and mobile devices.} \dotfill 2015-now
+		\parbox[left]{0.7\textwidth}{ \begin{itemize}
+				\item Preformed laptop, desktop and cell-phone hardware and software repairs
+				\item Replaced SMD components on motherboards.
+				\item Experience with embedded devices, interfacing peripheral devices with UART, SPI and I²C.
+				\item Proficient in Linux-based systems, use Linux daily as main OS.
+		\end{itemize}}
+		
+		
+		\item\textbf{D-Led Illumination Technologies} \dotfill 2010-2016 \\
+		\parbox[left]{0.7\textwidth}{Production Assembly Worker and later member of the R\&D team.
+			\begin{itemize}
+				\item Assisted in the production of LED-based illumination products. Gained experience in a wide variety of production techniques of electronic devices.
+				\item As a member of the R\&D team, assembled and tested prototypes for future products.
+				\item Reverse-engineered competing products, filing detailed reports of test results.
+				\item Edited and wrote code for microcontroller-based products.
+				\item Repaired, installed and customized illumination solutions for customers.
+		\end{itemize}}
+	\end{itemize}
+	% Education
+	\subsection*{Education}
+	\begin{itemize}
+		\item \textbf{Ariel University} \dotfill 2015-now \\
+		Bachelor of Science in Electrical Engineering.
+		\item \textbf{Tefen High-School} \dotfill 2003-2006 \\
+		Full matriculation.
+	\end{itemize}
+	
+	% Military Service
+	\subsection*{Military Service} 
+	\begin{itemize}
+		\item Full service as help-desk, system administrator and network technician.\dotfill 2007-2010
+	\end{itemize}
+	
+	% Languages
+	\subsection*{Languages}
+	\begin{multicols}{3}
+		\begin{itemize}
+			\item \textbf{Hebrew} - Native Speaker.
+			\item \textbf{English} - Full professional proficiency.
+			\item \textbf{Spanish} - Limited working proficiency.
+		\end{itemize}
+	\end{multicols}
+	
+	\begin{center}
+		\hrule
+		
+	\end{center}
+\end{document}
